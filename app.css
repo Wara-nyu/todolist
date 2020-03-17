@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;;
+}
+
+body > div {
+    width: 800px;
+}
+
+form {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.error {
+    color: red;
+    display: none;
+}
+
+form input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+input{
+    padding: 18px;
+}
+
+#button-add {
+    background-color: rgb(40, 194, 40);
+    border: green 1px solid;
+    padding: 5px;
+    color: white;
+}
+.item{
+    padding: 15px 2px 15px 2px;
+    border-bottom: rgb(221, 221, 221) solid 1px;
+}
+.item button {
+    background-color: pink;
+    border: solid rgb(248, 128, 128) 1px;
+    color: white;
+}
+
+.item {
+    display: flex;
+}
+
+.item:last-child {
+    border-bottom: none;
+}
+
+.item > span {
+    flex: 1;
+}
